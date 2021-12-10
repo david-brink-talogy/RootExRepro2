@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootExRepro2", "RootExRepro2\RootExRepro2.csproj", "{823E60EA-A156-453F-9632-A07412F37496}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B1100F29-5C5D-4019-81E6-0B3EFA9B535F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DockerDebug|Any CPU = DockerDebug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{823E60EA-A156-453F-9632-A07412F37496}.Debug|Any CPU.ActiveCfg = DockerDebug|Any CPU
+		{823E60EA-A156-453F-9632-A07412F37496}.Debug|Any CPU.Build.0 = DockerDebug|Any CPU
+		{823E60EA-A156-453F-9632-A07412F37496}.DockerDebug|Any CPU.ActiveCfg = DockerDebug|Any CPU
+		{823E60EA-A156-453F-9632-A07412F37496}.DockerDebug|Any CPU.Build.0 = DockerDebug|Any CPU
+		{823E60EA-A156-453F-9632-A07412F37496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823E60EA-A156-453F-9632-A07412F37496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1100F29-5C5D-4019-81E6-0B3EFA9B535F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1100F29-5C5D-4019-81E6-0B3EFA9B535F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1100F29-5C5D-4019-81E6-0B3EFA9B535F}.DockerDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1100F29-5C5D-4019-81E6-0B3EFA9B535F}.DockerDebug|Any CPU.Build.0 = Debug|Any CPU
+		{B1100F29-5C5D-4019-81E6-0B3EFA9B535F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1100F29-5C5D-4019-81E6-0B3EFA9B535F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49DC8CF4-7B60-4A85-B32D-DD547635586B}
+	EndGlobalSection
+EndGlobal

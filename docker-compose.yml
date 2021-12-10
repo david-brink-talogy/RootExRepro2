@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  rootexrepro2:
+    image: ${DOCKER_REGISTRY-}rootexrepro2
+    build:
+      context: .
+      dockerfile: RootExRepro2/Dockerfile
+      args:
+        BUILD_CONFIGURATION: DockerDebug
